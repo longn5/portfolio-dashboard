@@ -1,0 +1,46 @@
+body{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+#github-header{
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+#github-header span{
+    padding: 5px 20px;
+}
+
+.widget-title{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 35px;
+}
+#github-header span:nth-of-type(2){
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+}
+
+#github-header h2{
+    display: inherit;
+}
+
+.stat-numbers{
+    font-size: 32px;
+    color: #F7FF95;
+}
+
+#github-stats{
+    display: flex;
+
+
+}
+
+#github-stats p{
+    padding: 5px;
+}
