@@ -55,8 +55,17 @@ class Widget extends React.Component {
   render() {
     console.log(this.state.languages);
     //if profile object is null then don't show anything
-    if (!this.state.languages) {
-      return <div>Loading...</div>;
+    let hi = true;
+    // if (!this.state.languages) {
+    if(hi){
+      return (
+        <div class="ui segment">
+          <div class="ui active dimmer">
+            <div class="ui text loader">Loading</div>
+          </div>
+          <p></p>
+        </div>
+      );
     } else {
       return (
         <div className="">
